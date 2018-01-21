@@ -13,6 +13,7 @@
 		2780AF66200E5F9100B9FAF6 /* PushView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2780AF64200E5F9100B9FAF6 /* PushView.xcdatamodeld */; };
 		2780AF68200E5F9100B9FAF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2780AF67200E5F9100B9FAF6 /* Assets.xcassets */; };
 		2780AF6B200E5F9100B9FAF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2780AF69200E5F9100B9FAF6 /* LaunchScreen.storyboard */; };
+		2780AF73200E5FB500B9FAF6 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2780AF72200E5FB500B9FAF6 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2780AF67200E5F9100B9FAF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2780AF6A200E5F9100B9FAF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2780AF6C200E5F9100B9FAF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2780AF72200E5FB500B9FAF6 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				2780AF5D200E5F9100B9FAF6 /* AppDelegate.swift */,
 				2780AF5F200E5F9100B9FAF6 /* ViewController.swift */,
 				2780AF61200E5F9100B9FAF6 /* Main.storyboard */,
+				2780AF72200E5FB500B9FAF6 /* NewViewController.swift */,
 				2780AF67200E5F9100B9FAF6 /* Assets.xcassets */,
 				2780AF69200E5F9100B9FAF6 /* LaunchScreen.storyboard */,
 				2780AF6C200E5F9100B9FAF6 /* Info.plist */,
@@ -142,6 +145,7 @@
 				2780AF60200E5F9100B9FAF6 /* ViewController.swift in Sources */,
 				2780AF5E200E5F9100B9FAF6 /* AppDelegate.swift in Sources */,
 				2780AF66200E5F9100B9FAF6 /* PushView.xcdatamodeld in Sources */,
+				2780AF73200E5FB500B9FAF6 /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

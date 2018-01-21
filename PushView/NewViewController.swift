@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NewViewController.swift
 //  PushView
 //
 //  Created by Tan on 1/16/18.
@@ -8,20 +8,23 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class NewViewController: UIViewController {
 
-    @IBAction func btn(_ sender: Any) {
-   
-        
+    @IBAction func unwindSegue(_ sender: UIStoryboardSegue) {
+        self.navigationController?.popViewController(animated: true)
     }
+  
+    @IBOutlet weak var btn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-}
 
+
+}
